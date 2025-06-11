@@ -26,7 +26,7 @@ S3_BUCKET_NAME = 'teetech-contact-bucket'
 
 app.add_middleware(
   CORSMiddleware,
-  allow_origins=["*"],
+  allow_origins=["https://frontend-contact.onrender.com"],
   allow_credentials=True,
   allow_methods=['*'],
   allow_headers=['*'],
